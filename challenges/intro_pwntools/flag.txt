@@ -1,0 +1,1 @@
+flag{who_can_reject_automation?}

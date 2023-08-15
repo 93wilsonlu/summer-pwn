@@ -1,0 +1,1 @@
+flag{A_book_that_is_shut,_is_but_a_block}

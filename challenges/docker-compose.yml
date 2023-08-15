@@ -1,0 +1,52 @@
+version: '0.1'
+
+services:
+  intro_pwntools: 
+   build: intro_pwntools
+   ports:
+    - 8301:8301
+
+  pwn_calculator: 
+   build: pwn_calculator
+   ports:
+    - 8302:8302
+
+  bof: 
+   build: bof
+   ports:
+    - 8303:8303
+
+  change_pw: 
+   build: change_pw
+   ports:
+    - 8304:8304
+
+  ret2code: 
+   build: ret2code
+   ports:
+    - 8305:8305
+
+  shellcode: 
+   build: shellcode
+   ports:
+    - 8306:8306
+
+  rop: 
+   build: rop
+   ports:
+    - 8307:8307
+
+  ret2libc: 
+   build: ret2libc
+   ports:
+    - 8308:8308
+
+  got_hijack: 
+   build: got_hijack
+   ports:
+    - 8309:8309
+
+  array2got: 
+   build: array2got
+   ports:
+    - 8310:8310
