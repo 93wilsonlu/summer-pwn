@@ -50,3 +50,8 @@ services:
    build: array2got
    ports:
     - 8310:8310
+
+  fmt_canary: 
+   build: fmt_canary
+   ports:
+    - 8311:8311
