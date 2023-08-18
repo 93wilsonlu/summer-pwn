@@ -55,3 +55,8 @@ services:
    build: fmt_canary
    ports:
     - 8311:8311
+
+  rop2: 
+   build: rop2
+   ports:
+    - 8312:8312
